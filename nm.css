@@ -1,0 +1,157 @@
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animated-slide {
+    display: block;
+    animation: slideIn 1.5s ease-out forwards;
+}
+
+
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: left; 
+}
+
+nav ul li {
+    display: inline-block; /* Make items inline */
+    margin: 0 15px;
+    nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: left; /* Center align */
+    }
+    
+    nav ul li {
+        display: inline-block; /* Make items inline */
+        margin: 0 15px;
+    }
+    
+}
+
+body {
+    background-color: #000000;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+    background: #3ba5e2;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Use Flexbox for alignment */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    text-align: center; /* Align text */
+    color: #fff; /* White text color */
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 20px;
+    text-align: center;
+    background: #fff;
+}
+
+.project-card {
+    display: inline-block;
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    background: #e3e3e3;
+    border-radius: 10px;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact { padding: 50px 20px;
+    text-align: center;
+    background: none;}
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: transparent; /* Removes black background */
+        color: rgb(255, 255, 255); /* Makes text visible */
+        font-weight: bold;
+    }
+    @keyframes slideIn {
+        from {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    
+    .animated-text {
+        display: block;
+        animation: slideIn 1.5s ease-out forwards;
+    }
+    body {
+        background-image: url('bmwlogo.jpg'); /* Replace with your image path */
+        background-size: cover; /* Cover the entire screen */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        height: 100vh; /* Full height of the viewport */
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+   
