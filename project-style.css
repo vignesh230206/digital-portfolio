@@ -1,0 +1,69 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    margin: 0;
+    padding: 0;
+    color: #fff; /* White text */
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #3498db; /* Blue navigation bar */
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #2980b9; /* Darker blue */
+    border-radius: 5px;
+}
+
+/* Project Section */
+.project-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff; /* Darker background for contrast */
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.project-container h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #000000; /* Yellow text */
+}
+
+.project-container p {
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* Project Image */
+.project-image {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    font-size: 14px;
+}
